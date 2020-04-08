@@ -1,0 +1,11 @@
+:root {
+  --primary: #661fff;
+  --dark: #410ef0;
+  --light: #9e6fff;
+  --gray: #999;
+  --fs-title: 18px;
+  --fs-subtitle: 16px;
+  --fs-desc: 14px;
+  --primary-fc: #2e405b;
+  --primary-link-fc: #0593d3;
+}

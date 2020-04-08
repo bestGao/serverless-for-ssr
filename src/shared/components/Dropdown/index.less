@@ -1,0 +1,30 @@
+.dropdown-wrap {
+  color: var(--primary-fc);
+  display: inline-block;
+  width: 150px;
+  min-height: 40px;
+  line-height: 40px;
+  text-align: left;
+  cursor: pointer;
+
+  .icon {
+    margin: 15px 8px 0 0;
+  }
+
+  .open {
+    transform: rotate(90deg);
+  }
+
+  .children-wrap {
+    margin-left: 24px;
+
+    .menu-item {
+      font-size: 14px;
+      color: #333;
+
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}

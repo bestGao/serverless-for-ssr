@@ -1,0 +1,15 @@
+.shadow {
+  box-shadow: 0 2px 8px #999;
+}
+
+.border-box {
+  box-sizing: border-box;
+}
+
+.flex-wrap {
+  display: flex;
+}
+
+.flex-item {
+  flex: 1;
+}

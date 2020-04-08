@@ -1,0 +1,46 @@
+.app-wrap {
+  max-width: 1440px;
+  min-height: 100vh;
+  margin: 0 auto;
+  color: var(--primary-fc);
+  box-shadow: 0 0 10px #eee;
+  background: rgba(255, 255, 255, 0.5);
+
+  .navbar {
+    left: ~'calc((100vw - 1440px) / 2)';
+    right: ~'calc((100vw - 1440px) / 2)';
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+
+    h1 {
+      line-height: 40px;
+    }
+
+    .logo {
+      width: 40px;
+      height: 40px;
+      vertical-align: top;
+      margin-right: 12px;
+    }
+  }
+
+  .section {
+    display: flex;
+
+    &-left {
+      width: 150px;
+      text-align: center;
+      margin-left: 40px;
+
+      .highlit {
+        color: var(--primary);
+      }
+    }
+
+    &-right {
+      flex: 1;
+      padding: 20px 40px 20px 20px;
+    }
+  }
+}
